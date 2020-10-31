@@ -1,0 +1,7 @@
+/* After adding FlipMove --> it adds an extra div so we need to add style to it here to apply effect */
+.results > div {
+  display: flex;
+  /* wrapping all the contents row-wise */
+  flex-wrap: wrap;
+  justify-content: center;
+}
